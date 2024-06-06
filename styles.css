@@ -39,7 +39,7 @@ nav ul li:hover{
 #video-background {
     position: absolute;
     top: 50px;
-    left: 58%;
+    left: 60%;
     z-index: -1;
     filter: brightness(130%) contrast(70%) ;
 }
@@ -66,7 +66,51 @@ nav ul li:hover{
     border-radius: 20px; 
     margin-right: 170px;     
 }
+#portfolio{
+margin: 0;
+}
 .projects{
     font-size: 30px;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allows projects to wrap to the next line if necessary */
+    gap: 20px; /* Space between projects */
+    
+}
+.projects > p {
+    flex-basis: 100%; /* Ensure the introductory text spans the full width */
+}
+.project1 , .project2 ,.project3 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 27px;
+}
+.project1 img ,.project2 img ,.project3 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.project1 a, .project2 a, .project3 a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.Githublink {
+    margin-top: 90px;
+   
+    
+}
+.Githublink a{
+    color: rgb(101, 125, 192);
+    font-size: 20px;
+    text-align: center;
+}
+.project1 , .project2 ,.project3 :hover{
+    cursor: pointer;
 }
