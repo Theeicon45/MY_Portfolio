@@ -120,4 +120,96 @@ margin: 0;
     padding: 10px;
     font-weight: bold;
 }
+.abouttxt{
+    font-size: 45px;
+    margin: 20px;
+    text-align: center;
+    
+}
+#about{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.backpic img {
+    z-index: -1;
+    position: absolute;
+    width: 100% !important;
+    padding: 30px;
+    right: 0;
+    transform: translateX(0) !important;
+    overflow: hidden !important;
+    margin-top: -200px;
+}
+.casing{
+    display: flex;
+}
+.casing p {
+    width: 500px;
+    font-size: 30px;
+}
+#about img{
+    width: 400px;
+    margin-right: 70px;
+    border-radius: 20px;
+}
+#contact{
+    padding: 30px;
+}
+.contacttxt{
+    font-size: 30px;
+}
+form{
+    height: 80vh;
+    width: 35vw;
+    padding: 20px;
+    margin-left: 450px;
+    font-family:'Outfit', sans-serif !important  ;
+  }
+  
+  
+  
+ 
+  
+  label {
+    display: block; 
+    margin: 10px;
+    
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+  
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(9, 192, 192);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+  }
+  
+  
+  button:hover {
+    background-color: #0084ff;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #19d819;
+    transform: scale(1); 
+  }
+  
 /* -----------------------------------------------Responsive---------------------------------------------- */

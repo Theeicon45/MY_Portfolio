@@ -49,6 +49,7 @@
     
 </section>     
   <section id="portfolio">
+    <div class="abouttxt">My portfolio</div>
         <div class="intro">Some of my projects include</div> 
     <div class="projects">
         
@@ -78,11 +79,52 @@
         </div>
     </div>
   </section> 
+  <div class="abouttxt">About me</div>
   <section id="about">
-                    <p>Foundational Expertise: HTML, CSS, and JavaScript. My journey in web development began with mastering the foundational languages of HTML, CSS, and JavaScript. Through meticulous study and hands-on practice, I have honed my abilities to create visually stunning and functionally robust web interfaces, ensuring a seamless user experience across all platforms.</p>
+    <div class="backpic">
+        <img src="Images/Image2.png" alt="">
+    </div>
+    <div class="casing">
+        <img src="Images/mypic2.jpg" alt="mypic2">
+        
+     <p>Foundational Expertise: HTML, CSS, and JavaScript. <br> 
+        My journey in web development began with mastering the foundational languages of HTML, CSS, and JavaScript. Through meticulous study and hands-on practice, I have honed my abilities to create visually stunning and functionally robust web interfaces, ensuring a seamless user experience across all platforms.</p>
+
+        
+    </div>
+   
                    
 </section>
+<section id="contact">
+    <div class="abouttxt">Contact me</div>
+    <div class="contacttxt">
+        Wanna contact me? <br>
+        Get in touch
+    </div>
+    .
+    <form action="https://formspree.io/f/xyyrrzwa" method="POST">
+        <div class="name"><label for="name">Name</label> 
+            <input class="input" id="full_name" name="fullName" placeholder="Full Name" required="" type="text" />
+        </div>
 
+        <div class="email">
+            <label for="name">Email</label> 
+            <input class="input" id="email" name="email" placeholder="Email" required="" type="email" />
+        </div>
+
+        <div class="messageBox">
+            <label for="name">Message</label>
+            <textarea cols="50" id="message" name="message" placeholder="Contact me" required="" rows="4"></textarea>
+        </div>
+
+        <div class="submit">
+             <button id="submitBtn" type="submit">Send message</button>
+        </div>
+    </form>
+    
+
+    
+</section>
 </body>
 <script src='script.js'></script>
 <script>
