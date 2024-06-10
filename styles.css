@@ -114,3 +114,10 @@ margin: 0;
 .project1 , .project2 ,.project3 :hover{
     cursor: pointer;
 }
+.intro{
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+/* -----------------------------------------------Responsive---------------------------------------------- */
