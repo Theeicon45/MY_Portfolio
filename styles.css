@@ -311,22 +311,47 @@ form{
     }
  }
  /* -----------------------------------------------------------responsive 3------------------------------------------- */
-@media(max-width:450px){
-    #nav-toggle {
-        display: flex;
+ @media (max-width: 480px) {
+    .textimage{
+        display: block;
     }
-    #nav-menu {
-        display: none;
-        flex-direction: column;
+    .textimage img{
+        width: 300px;
+        transform: translateX(20%);
+    }
+    .project1 , .project2 ,.project3 {
+        width: 300px;
+        height: 420px;
+        transform: translateX(15%);
+       
+    }
+    .project1 img ,.project2 img ,.project3 img{
         width: 100%;
-        background-color: rgb(9, 192, 192);
+        height: 270px;
+       
+        
     }
-    #nav-menu.show {
-        display: flex;
+    .casing{
+        display: block;
+        transform: translateX(10%);
     }
-    nav ul li {
-        margin: 10px 0;
-        width: 100%;
-        text-align: center;
+    #about img{
+        width: 320px;
+       
     }
+    .backpic img{
+        transform: translatey(80%) !important;
+        left: 0%;
+        margin-top: 0 !important;
+        width: 480px !important;
+        overflow: hidden !important;
+    }
+    #video-background {
+        transform: translateX(4%);
+        top: 90%;
+        overflow: hidden !important;
+        width: 50%;
+
+    }
+    
 }

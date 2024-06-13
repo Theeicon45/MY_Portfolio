@@ -14,3 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
         if (window.innerWidth > 480) {
             navMenu.classList.remove('show');
         }
+    });
+
+    // Optional: Hide the menu when a link is clicked
+    navMenu.addEventListener('click', function(event) {
+        if (event.target.tagName === 'A' && window.innerWidth <= 480) {
+            navMenu.classList.remove('show');
+        }
+    });
+});
