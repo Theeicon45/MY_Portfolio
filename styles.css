@@ -312,6 +312,23 @@ form{
  }
  /* -----------------------------------------------------------responsive 3------------------------------------------- */
  @media (max-width: 480px) {
+    #nav-toggle {
+        display: flex;
+    }
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(9, 192, 192);
+    }
+    #nav-menu.show {
+        display: flex;
+    }
+    nav ul li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
     .textimage{
         display: block;
     }
@@ -340,18 +357,25 @@ form{
        
     }
     .backpic img{
-        transform: translatey(80%) !important;
+        transform: translatey(20%) !important;
         left: 0%;
         margin-top: 0 !important;
-        width: 480px !important;
+        height: 1000px !important;
         overflow: hidden !important;
     }
+    
     #video-background {
-        transform: translateX(4%);
+        transform: translateX(-40%);
         top: 90%;
         overflow: hidden !important;
-        width: 50%;
+        width: 400px;
+       
 
+    }
+    form{
+        transform: translateX(4%);
+        margin-left: 0;
+        width: 100%;
     }
     
 }
